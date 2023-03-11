@@ -161,7 +161,7 @@ h3{
 .project-footer{
     text-align: left;
     padding-left: 25vh;
-    padding-top: 13vh;
+    padding-top: 15vh;
 }
 
 .recent-projects{
@@ -196,4 +196,14 @@ h3{
     padding-top: 2vh;
     margin-left: 22vh;
     margin-right: auto;
+}
+
+.photography--page{
+    position: relative;
+    padding-top: 2vh;
+    margin-left: 10vh;
+    /* inline-size: 500px; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
 }
