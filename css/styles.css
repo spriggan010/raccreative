@@ -61,6 +61,7 @@ footer{
     padding-top: 24.5vh;
 }
 
+/* Homepage */
 .company-name{
     text-align: left;
     padding-left: 25vh;
@@ -83,21 +84,26 @@ h3{
     
     
 }
+/* End of Homepage */
 
+/* About Us */
 .about--us{
+    
     text-align: left;
-    padding-left: 15vh;
+    padding-left: 20vh;
     margin-top: 15vh;
     
 }
 
 .about-us-h1{
+    position: relative;
     font-family: 'Poppins', sans-serif;
     font-size: 70px;
     font-weight: 300;
 }
 
 .about-us-p{
+    position: relative;
     margin-left: 10vh;
     inline-size: 500px;
     font-family: 'Poppins', sans-serif;
@@ -105,4 +111,65 @@ h3{
     font-weight: 300;
 
 
+}
+
+.about-us-image{
+    position: absolute;
+    max-width: 70%;
+    max-height: 70%;
+    top: 17vh;
+    right: 25vh;
+    
+}
+/* about us */
+
+/* portfolio */
+
+.portfolio-images{
+    display: inline-block;
+    padding-top: 7vh;
+    margin-left: 35vh;
+    margin-right: auto;
+
+}
+
+.photography{
+    margin-left: 10vh;
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.marketing{
+    margin-left: 10vh;
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    
+    
+}
+
+.logo{
+    margin-left: 10vh;
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    
+
+}
+
+.project-footer{
+    text-align: left;
+    padding-left: 25vh;
+    padding-top: 13vh;
+}
+
+.recent-projects{
+    position: relative;
+    padding-top: 2vh;
+    margin-left: 10vh;
+    /* inline-size: 500px; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    font-weight: 300;
 }
