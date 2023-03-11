@@ -127,7 +127,7 @@ h3{
 
 .portfolio-images{
     display: inline-block;
-    padding-top: 7vh;
+    
     margin-left: 35vh;
     margin-right: auto;
 
@@ -172,4 +172,28 @@ h3{
     font-family: 'Poppins', sans-serif;
     font-size: 45px;
     font-weight: 300;
+}
+
+.portfolio--photography{
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 2vh;
+    margin-left: 42vh;
+    margin-right: auto;
+}
+
+.portfolio--marketing{
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 2vh;
+    margin-left: 27vh;
+    margin-right: auto;
+}
+
+.portfolio--logo{
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 2vh;
+    margin-left: 22vh;
+    margin-right: auto;
 }
