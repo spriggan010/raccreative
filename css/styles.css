@@ -222,8 +222,6 @@ footer{
 
 }
 
-
-
 .recent-projects{
     position: relative;
     padding-top: 2vh;
@@ -231,7 +229,8 @@ footer{
     /* inline-size: 500px; */
     font-family: 'Poppins', sans-serif;
     font-size: 45px;
-    font-weight: 300;
+    font-weight: 400;
+    
 }
 
 .portfolio--photography{
@@ -240,22 +239,25 @@ footer{
     padding-top: 2vh;
     margin-left: 42vh;
     margin-right: auto;
+    font-size: 20px;
 }
 
 .portfolio--marketing{
     display: inline-block;
     font-family: 'Poppins', sans-serif;
     padding-top: 2vh;
-    margin-left: 27vh;
+    margin-left: 24.5vh;
     margin-right: auto;
+    font-size: 20px;
 }
 
 .portfolio--logo{
     display: inline-block;
     font-family: 'Poppins', sans-serif;
     padding-top: 2vh;
-    margin-left: 22vh;
+    margin-left: 17.5vh;
     margin-right: auto;
+    font-size: 20px;
 }
 
 .photography--page{
