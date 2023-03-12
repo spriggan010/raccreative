@@ -86,7 +86,7 @@ h3{
 }
 /* End of Homepage */
 
-/* About Us */
+/* About Us page start*/
 .about--us{
     
     text-align: left;
@@ -121,9 +121,9 @@ h3{
     right: 25vh;
     
 }
-/* about us */
+/* about us page end */
 
-/* portfolio */
+/* portfolio page start */
 
 .portfolio-images{
     display: inline-block;
@@ -207,3 +207,5 @@ h3{
     font-size: 30px;
     font-weight: 300;
 }
+
+/* portfolio page end */
