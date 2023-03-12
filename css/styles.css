@@ -241,10 +241,12 @@ form{
     max-height: 70%;
     top: 17vh;
     right: 25vh;
+    
 }
 
 
 input, textarea{
+    
     width: 500px;
     color: rgb(255, 255, 255);
     border: .5px solid rgb(255, 255, 255);
@@ -254,5 +256,8 @@ input, textarea{
     background: transparent;
     padding: 10px;
     margin-bottom: 10px;
+    border-radius: 5px;
 
 }
+
+
