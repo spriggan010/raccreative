@@ -14,7 +14,39 @@ body{
     
 }
 
-/* Header Start */
+/***************************** Transition Start ******************************/
+.company-name{
+    animation: transitionIn 1.5s;
+}
+
+.contact--container{
+    animation: transitionIn 1.5s;
+}
+
+.about--us{
+    animation: transitionIn 1.5s;
+}
+
+.portfolio-page{
+    animation: transitionIn 1.5s;
+}
+
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: translateY(-10px);
+
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/**************************** Transition end ******************************/
+
+/************************ Header Start **************************/
 ul{
     list-style: none;
 }
@@ -53,9 +85,9 @@ a:hover{
 
 
 
-/* Header End */
+/******************************** Header End *********************************/
 
-/* Homepage */
+/********************************* Homepage **********************************/
 footer{
     text-align: left;
     padding-left: 25vh;
@@ -87,9 +119,9 @@ footer{
     
     
 }
-/* End of Homepage */
+/**************************************** End of Homepage *************************************/
 
-/* About Us page start*/
+/**************************************** About Us page start**************************************/
 .about--us{
     
     text-align: left;
@@ -116,14 +148,16 @@ footer{
 
 }
 
+
 .about-us-image{
     position: absolute;
-    max-width: 70%;
-    max-height: 70%;
-    top: 17vh;
-    right: 25vh;
-    
+    margin-left: 115vh;
+    margin-top: -47vh;
+    width: 450px;
+    height: 600px;
+    object-fit: cover;
 }
+
 
 .about-us-footer{
     text-align: left;
@@ -131,9 +165,9 @@ footer{
     padding-top: 24.5vh;
 }
 
-/* about us page end */
+/************************************ about us page end *****************************/
 
-/* portfolio page start */
+/*********************************** portfolio page start *****************************/
 
 .portfolio-images{
     display: inline-block;
@@ -240,8 +274,9 @@ footer{
     padding-top: 14.5vh;
 }
 
-/* portfolio page end */
-/* Contact Us Page Start */
+/********************************** portfolio page end ****************************/
+
+/********************************* Contact Us Page Start ****************************/
 
 .contact-title{
     position: relative;
@@ -257,12 +292,16 @@ footer{
     margin-left: 5vh;
 }
 
+
+
 form{
     position: absolute;
+    margin-left: 125vh;
+    margin-top: -27vh;
     max-width: 70%;
     max-height: 60%;
-    top: 20vh;
-    right: 25vh;
+    /* top: 20vh;
+    right: 25vh; */
     
 }
 
@@ -313,5 +352,6 @@ button:hover{
     padding-top: 40.5vh;
 }
 
+/***************************** Contact Us Page End *****************************/
 
 
