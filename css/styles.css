@@ -51,6 +51,8 @@ a:hover{
 
 }
 
+
+
 /* Header End */
 
 /* Homepage */
@@ -135,10 +137,30 @@ footer{
 
 .portfolio-images{
     display: inline-block;
-    
     margin-left: 35vh;
     margin-right: auto;
 
+}
+
+.photography:hover{
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: transform 0.7s;
+}
+
+.marketing:hover{
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: transform 0.7s;
+}
+
+.logo:hover{
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: transform 0.7s;
 }
 
 .photography{
@@ -238,15 +260,23 @@ footer{
 form{
     position: absolute;
     max-width: 70%;
-    max-height: 70%;
+    max-height: 60%;
     top: 17vh;
     right: 25vh;
     
 }
 
+label{
+    height: 100;
+    position: relative
+    left: 0;
+    top: 0;
+    padding: 3px;
+    color: white;
+    cursor: text;
+}
 
 input, textarea{
-    
     width: 500px;
     color: rgb(255, 255, 255);
     border: .5px solid rgb(255, 255, 255);
@@ -259,5 +289,30 @@ input, textarea{
     border-radius: 5px;
 
 }
+
+button{
+    padding: 10px 0;
+    color: #ffff;
+    outline: none;
+    background: transparent;
+    border: 1px solid #fff;
+    width: 90px;
+    height: 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    
+
+}
+
+button:hover{
+    background-color: #0098d4;
+    color: black;
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: transform 0.7s;
+}
+
 
 
