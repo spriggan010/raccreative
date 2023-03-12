@@ -247,7 +247,7 @@ footer{
     position: relative;
     text-align: left;
     padding-top: 30vh;
-    margin-left: 10vh;
+    margin-left: 20vh;
 }
 
 .contact-title-h3{
@@ -261,20 +261,11 @@ form{
     position: absolute;
     max-width: 70%;
     max-height: 60%;
-    top: 17vh;
+    top: 20vh;
     right: 25vh;
     
 }
 
-label{
-    height: 100;
-    position: relative
-    left: 0;
-    top: 0;
-    padding: 3px;
-    color: white;
-    cursor: text;
-}
 
 input, textarea{
     width: 500px;
@@ -308,10 +299,18 @@ button{
 button:hover{
     background-color: #0098d4;
     color: black;
+    border: black;
     -ms-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
     transition: transform 0.7s;
+    
+}
+
+.contact-footer{
+    text-align: left;
+    padding-left: 25vh;
+    padding-top: 40.5vh;
 }
 
 
