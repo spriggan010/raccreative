@@ -356,4 +356,57 @@ button:hover{
 
 /***************************** Contact Us Page End *****************************/
 
+/***************************** Photography page start *****************************/
+
+.photo-container-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+
+
+
+.photo-container-title{
+    font-family: "poppins", sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.photo-container-title2{
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.wedding-photos-title{
+    position: relative;
+    font-family: "poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 20px;
+    text-align: left;
+    margin-left: 15vh;
+}
+
+.wedding-photos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 50%;
+}
+
+/* .wedding-photos-2{
+    display: inline-block;
+    max-width: 200px;
+    max-height: 500px;
+
+
+} */
+
+
+
+
+
 
