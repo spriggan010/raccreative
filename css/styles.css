@@ -92,6 +92,7 @@ footer{
     text-align: left;
     padding-left: 25vh;
     padding-top: 40vh;
+    color: rgb(20, 20, 20);
 }
 
 
@@ -101,7 +102,8 @@ footer{
     text-align: left;
     padding-left: 25vh;
     margin-top: 30vh;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.568);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
+    color: rgb(20, 20, 20);
 }
 
 .hompage-title{
