@@ -235,11 +235,11 @@ a:hover{
 
 }
 
-.recent-projects{
+.portfolio{
     position: relative;
     padding-top: 2vh;
     margin-left: 10vh;
-    /* inline-size: 500px; */
+    
     font-family: 'Poppins', sans-serif;
     font-size: 45px;
     font-weight: 400;
@@ -369,7 +369,7 @@ button:hover{
 
 /***************************** Contact Us Page End *****************************/
 
-/***************************** Photography page start *****************************/
+/***************************** Portfolio link pages start *****************************/
 
 
 
@@ -404,7 +404,7 @@ button:hover{
 .photo_album img{
     width: 100%;
     max-width: 300px;
-    height: 400px;
+    height: 500px;
     object-fit: cover;
    
 }
@@ -422,12 +422,315 @@ button:hover{
     padding-top: 10vh;
 }
 
-/*********************** Photography page end ********************/
+/*********************** Portfolio link pages end ********************/
 
+/************************* Media Queries *************************/
 
+/****************** Homepage ******************/
+@media only screen and (max-width: 600px) {
+    .homepage {
+        
+        height: 100vh;
+        background: black;
+        
+    }
 
+    .homepage-footer{
+        text-align: left;
+        padding-left: 5vh;
+        padding-top: 45vh;
+        color: white;
+        
+    }
+    
+    
+    .company-name{
+        text-align: left;
+        padding-left: 5vh;
+        margin-top: 30vh;
+        color: rgb(255, 255, 255);
+    }
+    
+    .hompage-title{
+        font-family: 'Poppins', sans-serif;
+        font-size: 50px;
+        font-weight: 450;
+    }
+    
+    .homepage-subtitle{
+        font-family: 'Poppins', sans-serif;
+        font-size: 25px;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        
+        
+    }
 
+}
 
+/******************************* About Us Page ******************************/
 
+@media only screen and (max-width: 600px){
 
+    .navbar-toggler{
+        background-color: white;
+        color: white;
+        outline: white;
+        
+    }
 
+    .about--us{
+        height: 1398px;
+        display: block;
+        text-align: left;
+        padding-left: 3vh;
+        margin-top: 15vh;
+        
+    }
+    
+    .about-us-h1{
+        position: relative;
+        font-family: 'Poppins', sans-serif;
+        font-size: 70px;
+        font-weight: 300;
+    }
+    .about-us-p{
+       
+        margin-left: 5vh;
+        inline-size: 300px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        
+    
+    
+    }
+    
+    .about-us-image{
+        position: absolute;
+        margin-left: 5vh;
+        margin-top: 10vh;
+        width: 300px;
+        height: 500px;
+        object-fit: cover;
+    }
+    
+    
+    .about-us-footer{
+        text-align: left;
+        padding-left: 5vh;
+        padding-top: 5vh;
+    }
+}
+
+/******************************* Portfolio Page ******************************/
+
+@media only screen and (max-width: 600px){
+
+   
+    .portfolio-images{
+        display: inline-block;
+        margin-left: 5vh;
+        margin-right: auto;
+    
+    }
+    
+    
+    .photography{
+        padding-top: 5vh;
+        margin-left: 2vh;
+        width: 300px;
+        height: 500px;
+        object-fit: cover;
+    }
+    
+    .marketing{
+        margin-left: 2vh;
+        width: 300px;
+        height: 500px;
+        object-fit: cover;
+        
+        
+    }
+    
+    .logo{
+        margin-left: 2vh;
+        width: 300px;
+        height: 500px;
+        object-fit: cover;
+        
+    
+    }
+    
+    .portfolio{
+        position: relative;
+        padding-top: 5vh;
+        margin-left: 5vh;
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+        font-weight: 400;
+        
+    }
+    
+    .portfolio--photography{
+        display: none;
+    }
+    
+    .portfolio--marketing{
+        display: none;
+
+    }
+    
+    .portfolio--logo{
+        display: none;
+    
+    }
+    
+    .photography--page{
+        position: relative;
+        padding-top: 2vh;
+        margin-left: 5vh;
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+        font-weight: 300;
+    }
+    
+    .project-footer{
+        text-align: left;
+        padding-left: 5vh;
+        padding-top: 14vh;
+    }
+
+}
+
+/************************** Portflio links ***************************/
+
+@media only screen and (max-width: 600px){
+    .photo-container-heading{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 40px 20px 0 20px;
+    }
+    
+    .photo-container-title{
+        font-family: "poppins", sans-serif;
+        font-size: 40px;
+        font-weight: 500;
+    }
+    
+    .photo-container-title2{
+        font-size: 40px;
+        font-weight: 200;
+    }
+    
+    .photo_album{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+        padding-top: 5vh;
+    }
+    
+    .photo_album img{
+        width: 100%;
+        max-width: 300px;
+        height: 400px;
+        object-fit: cover;
+       
+    }
+    
+    .photo_album img:hover{
+        -ms-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+        transition: transform 0.7s;
+    }
+    
+    .photography-footer{
+        text-align: left;
+        padding-left: 5vh;
+        padding-top: 10vh;
+    }
+    
+}
+
+/**************************** Contact Us *********************************/
+@media only screen and (max-width: 600px){
+
+    .contact-title{
+        position: relative;
+        text-align: left;
+        padding-top: 10vh;
+        margin-left: 5vh;
+    }
+    
+    .contact-title-h3{
+        font-family: "poppins", sans-serif;
+        font-size: 20px;
+        font-weight: 200;
+        margin-left: 2vh;
+    }
+    
+    
+    
+    form{
+        position: relative;
+        margin-left: 5vh;
+        margin-top: 10vh;
+
+        
+    }
+    
+    
+    input, textarea{
+        width: 350px;
+        color: rgb(255, 255, 255);
+        border: .5px solid rgb(255, 255, 255);
+        outline: 0;
+        font-family: "poppins", sans-serif;
+        font-size: 15px;
+        background: transparent;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    
+    }
+    
+    button{
+        padding: 10px 0;
+        color: #ffff;
+        outline: none;
+        background: transparent;
+        border: 1px solid #fff;
+        width: 90px;
+        height: 45px;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+        
+    
+    }
+    
+    button:hover{
+        background-color: #d40000;
+        color: rgb(255, 255, 255);
+        border: black;
+        -ms-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+        transition: transform 0.7s;
+        
+    }
+    
+    .contact-footer{
+        text-align: left;
+        padding-left: 5vh;
+        padding-top: 10vh;
+        
+    }
+    
+}
