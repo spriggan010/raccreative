@@ -31,6 +31,19 @@ body{
     animation: transitionIn 1.5s;
 }
 
+.photography-page{
+    animation: transitionIn .75s;
+}
+
+.marketing-page{
+    animation: transitionIn .75s;
+}
+
+.logo-page{
+    animation: transitionIn .75s;
+}
+
+
 @keyframes transitionIn{
     from{
         opacity: 0;
@@ -338,8 +351,8 @@ button{
 }
 
 button:hover{
-    background-color: #0098d4;
-    color: black;
+    background-color: #d40000;
+    color: rgb(255, 255, 255);
     border: black;
     -ms-transform: scale(1.2);
     -webkit-transform: scale(1.2);
@@ -357,6 +370,8 @@ button:hover{
 /***************************** Contact Us Page End *****************************/
 
 /***************************** Photography page start *****************************/
+
+
 
 .photo-container-heading{
     display: flex;
